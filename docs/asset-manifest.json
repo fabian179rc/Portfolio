@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e80782c4.chunk.css",
+    "main.js": "/static/js/main.7c3fcb63.chunk.js",
+    "main.js.map": "/static/js/main.7c3fcb63.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7fb0e746.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7fb0e746.js.map",
+    "static/css/2.207e99fc.chunk.css": "/static/css/2.207e99fc.chunk.css",
+    "static/js/2.63f1c7ab.chunk.js": "/static/js/2.63f1c7ab.chunk.js",
+    "static/js/2.63f1c7ab.chunk.js.map": "/static/js/2.63f1c7ab.chunk.js.map",
+    "static/js/3.6ccd8a43.chunk.js": "/static/js/3.6ccd8a43.chunk.js",
+    "static/js/3.6ccd8a43.chunk.js.map": "/static/js/3.6ccd8a43.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.207e99fc.chunk.css.map": "/static/css/2.207e99fc.chunk.css.map",
+    "static/css/main.e80782c4.chunk.css.map": "/static/css/main.e80782c4.chunk.css.map",
+    "static/js/2.63f1c7ab.chunk.js.LICENSE.txt": "/static/js/2.63f1c7ab.chunk.js.LICENSE.txt",
+    "static/media/PersonalFinance.fa543dd6.png": "/static/media/PersonalFinance.fa543dd6.png",
+    "static/media/Starcards.ddf73c4f.png": "/static/media/Starcards.ddf73c4f.png",
+    "static/media/VideoGames.1dbfeaf5.png": "/static/media/VideoGames.1dbfeaf5.png",
+    "static/media/about.4334bb8f.png": "/static/media/about.4334bb8f.png",
+    "static/media/logo.9ef6f06d.svg": "/static/media/logo.9ef6f06d.svg",
+    "static/media/mail.d36f65b0.png": "/static/media/mail.d36f65b0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fb0e746.js",
+    "static/css/2.207e99fc.chunk.css",
+    "static/js/2.63f1c7ab.chunk.js",
+    "static/css/main.e80782c4.chunk.css",
+    "static/js/main.7c3fcb63.chunk.js"
+  ]
+}
