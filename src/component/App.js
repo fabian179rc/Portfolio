@@ -7,7 +7,7 @@ import Layout from "./Layout";
 
 function App() {
   return (
-    <Router basename="/Portfolio">
+    <Router>
       <Layout>
         <Switch>
           <Route exact path="/" component={Home} />
