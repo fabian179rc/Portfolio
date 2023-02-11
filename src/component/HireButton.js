@@ -14,7 +14,7 @@ export default function HireButton() {
       data-aos-easing="ease-in-out"
     >
       <div className="btn-primary text-purple-500 border-purple-500 hover:text-white hover:bg-purple-500 block md:inline-block m-auto">
-        Hire
+        Contactar
       </div>
       <span className="hidden md:flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-400 opacity-75"></span>

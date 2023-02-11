@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function useAosAnimation() {
   useEffect(() => {
     Aos.init({
-      duration: 1000,
+      duration: 1200,
     });
   }, []);
 }

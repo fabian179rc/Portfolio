@@ -1,6 +1,4 @@
 import { animated, useSpring } from "react-spring";
-import hasanDark from "../assets/img/hasan-dark.png";
-import hasanLight from "../assets/img/hasan.png";
 import HerroTitle from "./HerroTitle";
 import HireButton from "./HireButton";
 import Social from "./Social";
@@ -36,30 +34,17 @@ export default function Herro() {
       </div>
       <animated.h3
         style={{ transform: props.xy.interpolate(trans1) }}
-        className="bg-text-landing left-0 top-40 text-gray-100 dark:text-gray-700 dark:text-opacity-40 text-9xl"
+        className="bg-text-landing left-auto top-20 text-gray-100  dark:text-gray-700 dark:text-opacity-40 text-9xl"
       >
-        Mahmudul
+        Fabian
       </animated.h3>
       <animated.h3
         style={{ transform: props.xy.interpolate(trans1) }}
-        className="bg-text-landing right-0 md:bottom-40 text-gray-100 text-11xl dark:text-gray-700 dark:text-opacity-40"
+        className="bg-text-landing right-10 md:bottom-40 text-gray-100 text-9xl dark:text-gray-700 dark:text-opacity-40"
         data-depth="0.07"
       >
-        Hasan
+        Santos
       </animated.h3>
-      {/*-- Herro Image --*/}
-      <div className="hidden lg:block absolute right-12 md:-bottom-31.5 w-106 z-60">
-        <img
-          src={hasanLight}
-          alt="Mahmudul Hasan"
-          className="lightImage block dark:hidden"
-        />
-        <img
-          src={hasanDark}
-          alt="Mahmudul Hasan"
-          className="darkImage hidden dark:block"
-        />
-      </div>
     </div>
   );
 }

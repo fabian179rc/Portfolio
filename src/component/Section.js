@@ -5,7 +5,7 @@ export default function Section({ SecTitle1, SecTitle2 }) {
         <h3 class="tex-xl md:text-5xl text-center dark:text-white  text-gray-900 font-bold pl-0.5">
           {SecTitle1}
         </h3>
-        <h2 class="text-2xl text-center md:text-5xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient">
+        <h2 class="text-2xl text-center md:text-5xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient h-20">
           {SecTitle2}
         </h2>
       </div>

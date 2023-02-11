@@ -19,7 +19,7 @@ export default function Portfolio() {
     >
       <div className="container px-5 mx-auto text-center md:text-left py-16 md:py-24">
         {/*-- section title --*/}
-        <SectionTitle text1="Portfolio" text2="My Work" text3="Portfolio" />
+        <SectionTitle text1="Portafolio" text2="Proyectos" text3="Portafolio" />
         <animated.div
           style={{ transform: props.xy.interpolate(trans1) }}
           className="hidden dark:bg-gray-700 md:block absolute -right-36 top-24 md:w-72 md:h-72 lg:w-96 bg-purple-50 rounded-full lg:h-96"

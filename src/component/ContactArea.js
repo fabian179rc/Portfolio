@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { animated, useSpring } from "react-spring";
 import mailImg from "../assets/img/mail.png";
 import useAosAnimation from "../hooks/useAosAnimation";
@@ -27,7 +28,11 @@ export default function ContactArea() {
         className="container px-5 mx-auto text-center md:text-left py-16 md:pt-36 md:pb-24"
         id="contact-form"
       >
-        <SectionTitle text1="Contact" text2="Message Me.." text3="Contact" />
+        <SectionTitle
+          text1="Contacto"
+          text2="Enviame un mensaje.."
+          text3="Contacto"
+        />
 
         <animated.div
           style={{ transform: props.xy.interpolate(trans1) }}
@@ -43,18 +48,23 @@ export default function ContactArea() {
             data-aos-easing="ease-in-out"
           >
             <p className="text-justify mb-14 text-md">
-              Need to develop React or WordPress website ? I am here to help you.
+              Quieres contactar conmigo? Aqui te dejo mis redes:
             </p>
             <p className="text-black dark:text-white text-lg mb-2">
               <span className="font-bold">Email :</span>{" "}
-              <a href="mailto:mhhasan320@gmail.com">mhhasan320@gmail.com</a>
+              <a href="mailto:fabianjesussantos@gmail.com">
+                FabianJesusSantos@gmail.com
+              </a>
             </p>
             <p className="text-black dark:text-white text-lg mb-2">
-              <span className="font-bold">Phone :</span> +880 1517828396
+              <span className="font-bold">Telefono :</span>{" "}
+              <a href="http://wa.me/+5493413353196" target="_blank">
+                +54 9 3413353196{" "}
+              </a>{" "}
             </p>
             <p className="text-black dark:text-white text-lg mb-2">
-              <span className="font-bold">Address :</span> Khilgoan, Dhaka,
-              Bangladesh
+              <span className="font-bold">Direccion :</span> Rosario, Santa Fe,
+              Argentina
             </p>
 
             <div className="mt-3 md:mt-8">

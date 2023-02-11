@@ -1,7 +1,7 @@
 export default function GoWebsite() {
   return (
     <span className="flex transition-all mb-24 md:mb-0 group-hover:text-pink-500">
-      Go Website
+      Ir a la Web
       <svg
         className="w-4 ml-2 transition-all group-hover:ml-4"
         xmlns="http://www.w3.org/2000/svg"

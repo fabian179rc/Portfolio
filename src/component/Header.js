@@ -2,7 +2,7 @@
 import { Transition } from "@headlessui/react";
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/img/logo.jpg";
+import logo from "../assets/img/logo.svg";
 import DarkModeToggle from "./DarkModeToggle";
 
 export default function Header() {
@@ -18,16 +18,15 @@ export default function Header() {
   const splitLocation = pathname.split("/");
 
   return (
-    <nav className="bg-white dark:bg-gray-900 shadow relative transition duration-75">
+    <nav
+      className="bg-white dark:bg-gray-900 shadow relative transition duration-75"
+      id="nav"
+    >
       <div className="container m-auto p-4 md:flex md:justify-between md:items-center">
         <div className="flex justify-between items-center w-full">
           <div className="flex items-center">
             <Link to="/">
-              <img
-                src={logo}
-                className="w-8 h-8 rounded-full shadow"
-                alt="Logo"
-              />
+              <img src={logo} className="w-52 h-8  shadow" alt="Logo" />
             </Link>
           </div>
 
@@ -39,7 +38,7 @@ export default function Header() {
                   splitLocation[1] === "" ? "active" : ""
                 }`}
               >
-                <Link to="/"> Home </Link>
+                <Link to="/"> Inicio </Link>
               </li>
               <li
                 className={`nav-class list-none ${
@@ -47,19 +46,16 @@ export default function Header() {
                 }`}
               >
                 <Link className="" to="/PortfolioPage">
-                  Portfolio
+                  Portafolio
                 </Link>
               </li>
-              <Link
+              <a
                 className="btn-primary text-center border-pink-500 text-pink-500 md:ml-6 hover:bg-pink-500 hover:text-white"
-                to={{
-                  pathname:
-                    "https://me.mhasan.acumenits.com/wp-content/uploads/2022/01/Resume_of_Mahmudul_Hasan.pdf",
-                }}
+                href="Fabian-Santos-Fullstack-Developer.pdf"
                 target="_blank"
               >
-                Download CV
-              </Link>
+                Descargar CV
+              </a>
             </div>
           </div>
 
@@ -105,22 +101,21 @@ export default function Header() {
             <div className="md:flex items-center mt-4 md:mt-0">
               <div ref={ref} className="flex flex-col md:flex-row md:ml-6">
                 <Link className="nav-class" to="/" aria-current="page">
-                  Home
+                  Inicio
                 </Link>
                 <Link
                   className="nav-class dark:text-gray-50 transition duration-75"
                   to="/PortfolioPage"
                 >
-                  Portfolio
+                  Portafolio
                 </Link>
                 <Link
                   className="btn-primary text-center border-pink-500 text-pink-500 md:ml-6 hover:bg-pink-500 hover:text-white"
                   to={{
-                    pathname:
-                      "https://me.mhasan.acumenits.com/wp-content/uploads/2021/10/Mahmudul-Hasan.pdf",
+                    pathname: "", //url CV
                   }}
                 >
-                  Download CV
+                  Descargar CV
                 </Link>
               </div>
             </div>

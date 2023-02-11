@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom';
-import aboutImg from '../assets/img/about.png';
-import useAosAnimation from '../hooks/useAosAnimation';
-import SectionTitle from './SectionTitle';
+/* eslint-disable react/jsx-no-target-blank */
+import { Link } from "react-router-dom";
+import aboutImg from "../assets/img/about.png";
+import useAosAnimation from "../hooks/useAosAnimation";
+import SectionTitle from "./SectionTitle";
 
 export default function About() {
   useAosAnimation();
@@ -9,7 +10,7 @@ export default function About() {
     <div className="bg-gray-50 dark:bg-gray-700 relative z-50 transition duration-75">
       <div className="container px-5 mx-auto text-center md:text-left py-16 md:py-24">
         {/*-- section title --*/}
-        <SectionTitle text1="About Me" text2="My Story" text3="About Me" />
+        <SectionTitle text1="Sobre Mi" text3="Sobre Mi" />
 
         <div className="block lg:flex mt-20">
           <div
@@ -32,20 +33,20 @@ export default function About() {
           >
             <div className="dark:text-white m-auto sm:ml-0 text-justify mt-3 text-md transition duration-75">
               <p>
-                Front-end Developer with 5 years+ professional experience by
-                providing service to ‘Eunoia IT Solutions ‘. ❤️ Javascript,
-                Typescript & React JS and learning new technology in my leisure
-                time. At Present I am working into{' '}
+                Desarrollador Fullstack con experiencia en Javascript, Node JS,
+                React JS, DDBB SQL y NoSQL, disfrutando aprender nuevas
+                tecnologias en mi tiempo libre. Actualmente estoy trabajando
+                como Tutor de Node en
                 <Link
                   to={{
-                    pathname: 'https://bitbytetechnology.com/',
+                    pathname: "https://www.coderhouse.com/",
                   }}
                   target="_blank"
-                  className="bg-pink-500 hover:bg-white hover:text-pink-500 transiton-all duration-150 text-white p-0.5 cursor-pointer"
+                  className="bg-red-600 rounded-md hover:bg-white hover:text-pink-500 transiton-all duration-150 text-white p-0.5 cursor-pointer "
                 >
-                  Bit Byte Technology
-                </Link>{' '}
-                as a Software engineer (Front-end Developer).
+                  CoderHouse
+                </Link>{" "}
+                , reforzando mis TechSkills y mejorando mis SoftSkills.
               </p>
             </div>
             <hr className="mt-5 dark:border-gray-800 transition duration-75" />
@@ -53,41 +54,45 @@ export default function About() {
               <div className="inline-block">
                 <p className=" leading-8">
                   <span className="text-purple-500 font-semibold mr-4">
-                    Age :
-                  </span>{' '}
-                  29
+                    Edad :
+                  </span>{" "}
+                  31
                 </p>
                 <p className=" leading-8">
                   <span className="text-purple-500 font-semibold mr-4">
-                    Nationality :
-                  </span>{' '}
-                  Bangladeshi
+                    Nacionalidad :
+                  </span>{" "}
+                  Argentina
                 </p>
                 <p className=" leading-8">
                   <span className="text-purple-500 font-semibold mr-4">
-                    Language :
-                  </span>{' '}
-                  Bangla, English
+                    Lenguaje :
+                  </span>{" "}
+                  Español, Ingles(A1, in progress..)
                 </p>
               </div>
               <div className="inline-block">
                 <p className=" leading-8">
                   <span className="text-pink-500 font-semibold mr-4">
-                    Address :
-                  </span>{' '}
-                  Dhaka, Bangladesh
+                    Direccion :
+                  </span>{" "}
+                  Rosario, Santa Fe
                 </p>
                 <p className=" leading-8">
                   <span className="text-pink-500 font-semibold mr-4">
                     Email :
-                  </span>{' '}
-                  mhhasan320@gmail.com
+                  </span>{" "}
+                  <a href="mailto:fabianjesussantos@gmail.com">
+                    FabianJesusSantos@gmail.com
+                  </a>{" "}
                 </p>
                 <p className=" leading-8">
                   <span className="text-pink-500 font-semibold mr-4">
-                    Phone :
-                  </span>{' '}
-                  +8801517828396
+                    Telefono :
+                  </span>{" "}
+                  <a href="http://wa.me/+5493413353196" target="_blank">
+                    +54 9 3413353196{" "}
+                  </a>{" "}
                 </p>
               </div>
             </div>
