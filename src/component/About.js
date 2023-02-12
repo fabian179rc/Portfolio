@@ -36,7 +36,7 @@ export default function About() {
                 Desarrollador Fullstack con experiencia en Javascript, Node JS,
                 React JS, DDBB SQL y NoSQL, disfrutando aprender nuevas
                 tecnologias en mi tiempo libre. Actualmente estoy trabajando
-                como Tutor de Node en
+                como Tutor de Node en{" "}
                 <Link
                   to={{
                     pathname: "https://www.coderhouse.com/",

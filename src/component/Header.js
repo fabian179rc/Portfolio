@@ -1,14 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Transition } from "@headlessui/react";
 import React, { useState } from "react";
+import { useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/img/logo.svg";
+import logoBlack from "../assets/img/logoBlack.svg";
 import DarkModeToggle from "./DarkModeToggle";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const themeStatus = useSelector((state) => state.themeStatus);
 
-  //assigning location variable
   const location = useLocation();
 
   //destructuring pathname from location
@@ -26,7 +28,11 @@ export default function Header() {
         <div className="flex justify-between items-center w-full">
           <div className="flex items-center">
             <Link to="/">
-              <img src={logo} className="w-52 h-8  shadow" alt="Logo" />
+              <img
+                src={themeStatus ? logoBlack : logo}
+                className="w-52 h-8"
+                alt="Logo"
+              />
             </Link>
           </div>
 
